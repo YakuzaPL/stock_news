@@ -16,11 +16,8 @@ SENDER_EMAIL = "januszprogramingu@gmail.com"
 
 MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
 
-jakub = "jakub.zajfert@gmail.com"
+jakub = "XYZ@gmail.com"
 
-
-## STEP 1: Use https://www.alphavantage.co/documentation/#daily
-# When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
 stock_params={
     "function": "TIME_SERIES_INTRADAY",
